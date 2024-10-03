@@ -1,0 +1,19 @@
+.container{
+height: 100px;
+width: 100px; 
+border-radius: 50%; 
+border: 12px solid rgb(165, 91, 91);
+border-right: 12px solid;
+animation: name1 1s linear infinite;
+}
+@keyframes name1{
+    0%{
+        transform: rotate(-360deg);
+    }
+}
+.APP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
